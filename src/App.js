@@ -3,7 +3,9 @@ import './App.css';
 import Saludo from './Saludo';
 import Despedida from './Despedida.js';
 import Coches from './Coches.js';
-
+import MiComponente from './MiComponente.js';
+import FormularioAutoenfocado from './FormularioAutoenfocado.js';
+import Contador from './Contador.js';
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div><Contador></Contador>
+        </div>
         <div>
           {content}
         </div>
